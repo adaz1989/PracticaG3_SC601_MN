@@ -1,43 +1,4 @@
-# Archivos de configuración y dependencias
-*.config
-appsettings.json
-appsettings.*.json
-
 # Archivos de construcción y binarios
 bin/
 obj/
 
-# Archivos generados automáticamente
-*.user
-*.suo
-*.log
-*.userosscache
-*.sln.docstates
-
-# Archivos de paquetes y dependencias
-packages/
-*.nupkg
-*.snupkg
-project.lock.json
-project.fragment.lock.json
-
-# Archivos de caché y temporales
-*.cache
-*.tmp
-*.ide
-*.tlog
-*.vs/
-.vscode/
-
-# Archivos de Entity Framework
-Migrations/*.Designer.cs
-Migrations/*Snapshot.cs
-
-# Certificados y claves de usuario (por seguridad)
-*.pfx
-*.cer
-*.key
-secrets.json
-
-# Carpetas específicas de la autenticación y datos sensibles
-App_Data/
