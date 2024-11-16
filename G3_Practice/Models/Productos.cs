@@ -14,7 +14,6 @@ namespace G3_Practice.Models
         public float ? Price { get; set; }
         public int stock { get; set; }
         public string imagen { get; set; }
-
         public ICollection<CategoriaxProducto> CategoriaxProductos { get; set; }
     }
 }

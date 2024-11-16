@@ -1,0 +1,36 @@
+﻿@{
+    ViewBag.Title = "Cantidad Mayor a Stock";
+}
+
+<div class="container mt-5">
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <h4 class="alert-heading">¡Atención!</h4>
+        <p>La cantidad de productos que intentas comprar supera a la cantidad que se tiene en stock. Disculpa el inconveniente y gracias por tu comprensión.</p>
+        <hr>
+        <button type="button" class="btn btn-primary mt-3" onclick="location.href='@Url.Action("Index", "Carrito")'">Regresar</button>
+    </div>
+</div>
+
+<style>
+    .alert-heading {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .alert {
+        background-color: #fff3cd;
+        border-color: #ffeeba;
+    }
+
+    .btn-primary {
+        background-color: #007bff;
+        border-color: #007bff;
+        padding: 10px 20px;
+        font-size: 1.2rem;
+    }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+            border-color: #0056b3;
+        }
+</style>

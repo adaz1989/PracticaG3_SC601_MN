@@ -1,0 +1,48 @@
+﻿@model IEnumerable<G3_Practice.Models.CarritoDetalle>
+@{
+    ViewBag.Title = "Carrito";
+}
+
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Tu Carrito</h2>
+    <a href="@Url.Action("ProductosClientesIndex", "Producto", new { })" class="btn btn-outline-primary mb-4"><i class="fas fa-arrow-left"></i> Seguir comprando</a>
+    <div class="row">
+        @if (Model != null && Model.Any())
+        {
+        foreach (var CarritoDetalle in Model)
+            {
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm border-light">
+                        <img src="@CarritoDetalle.imagen" class="card-img-top img-fluid" style="height: 250px; object-fit: cover;" alt="@CarritoDetalle.ProductoName">
+                        <div class="card-body">
+                            <h5 class="card-title text-truncate" style="max-width: 200px;">@CarritoDetalle.ProductoName</h5>
+                            <p class="card-text"><strong>Precio:</strong> $@CarritoDetalle.Price</p>
+                            <p class="card-text"><strong>Cantidad:</strong> @CarritoDetalle.Cantiad</p>
+                            <p class="card-text"><strong>Precio Total:</strong> $@CarritoDetalle.TotalPrice</p>
+                            <div class="d-flex justify-content-between">
+                                <a href="@Url.Action("AumetarLaCantidad", "Carrito", new { id = CarritoDetalle.ProuctoId, stock = CarritoDetalle.stock })" class="btn btn-outline-success btn-sm"><i class="fas fa-plus"></i> Aumentar</a>
+                                <a href="@Url.Action("ReducirLaCantidad", "Carrito", new { id = CarritoDetalle.ProuctoId, stock = CarritoDetalle.stock })" class="btn btn-outline-warning btn-sm"><i class="fas fa-minus"></i> Reducir</a>
+                                <a href="@Url.Action("EliminarProducto", "Carrito", new { id = CarritoDetalle.ProuctoId })" class="btn btn-outline-danger btn-sm"><i class="fas fa-trash-alt"></i> Eliminar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+        else
+        {
+            <h5 class="text-center">El carrito está vacío</h5>
+        }
+    </div>
+
+    @if (Session["TotalCarrito"] != null)
+    {
+        <div class="text-center mt-4">
+            <h4><strong>Total del Carrito:</strong> $@Session["TotalCarrito"]</h4>
+        </div>
+        <div class="text-center mt-3">
+            <a href="@Url.Action("FinalizarCompra", "Carrito", new { })" class="btn btn-success btn-lg px-4 py-2"><i class="fas fa-check-circle"></i> Finalizar Compra</a>
+        </div>
+    }
+</div>

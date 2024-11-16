@@ -3,48 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\fabia\\Documents\\G3_Practice\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|c:\\users\\fabia\\documents\\g3_practice\\g3_practice\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|solutionrelative:g3_practice\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|c:\\users\\fabia\\documents\\g3_practice\\g3_practice\\migrations\\202411141519583_ojala_funcione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|solutionrelative:g3_practice\\migrations\\202411141519583_ojala_funcione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|C:\\Users\\fabia\\Documents\\G3_Practice\\g3_practice\\controllers\\carritocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|solutionrelative:g3_practice\\controllers\\carritocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|C:\\Users\\fabia\\Documents\\G3_Practice\\g3_practice\\models\\carritodetalle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|solutionrelative:g3_practice\\models\\carritodetalle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|C:\\Users\\fabia\\Documents\\G3_Practice\\g3_practice\\models\\pedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|solutionrelative:g3_practice\\models\\pedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|c:\\users\\fabia\\documents\\g3_practice\\g3_practice\\migrations\\202411161800122_correccionapedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|solutionrelative:g3_practice\\migrations\\202411161800122_correccionapedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|C:\\Users\\fabia\\Documents\\G3_Practice\\g3_practice\\models\\pedidodetalles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|solutionrelative:g3_practice\\models\\pedidodetalles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|C:\\Users\\fabia\\Documents\\G3_Practice\\g3_practice\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|solutionrelative:g3_practice\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|C:\\Users\\fabia\\Documents\\G3_Practice\\g3_practice\\views\\producto\\productosclientesindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|solutionrelative:g3_practice\\views\\producto\\productosclientesindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|C:\\Users\\fabia\\Documents\\G3_Practice\\g3_practice\\views\\carrito\\finalizarcompra.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|solutionrelative:g3_practice\\views\\carrito\\finalizarcompra.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|c:\\users\\fabia\\documents\\g3_practice\\g3_practice\\views\\carrito\\compraexitosa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|solutionrelative:g3_practice\\views\\carrito\\compraexitosa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|C:\\Users\\fabia\\Documents\\G3_Practice\\g3_practice\\models\\ventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|solutionrelative:g3_practice\\models\\ventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|C:\\Users\\fabia\\Documents\\G3_Practice\\g3_practice\\models\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|solutionrelative:g3_practice\\models\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|c:\\users\\fabia\\documents\\g3_practice\\g3_practice\\models\\pedidodetalles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|solutionrelative:g3_practice\\models\\pedidodetalles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|C:\\Users\\fabia\\Documents\\G3_Practice\\g3_practice\\models\\identitymodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|solutionrelative:g3_practice\\models\\identitymodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|c:\\users\\fabia\\documents\\g3_practice\\g3_practice\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|solutionrelative:g3_practice\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|C:\\Users\\fabia\\Documents\\G3_Practice\\g3_practice\\models\\preferenciaalimenticia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|solutionrelative:g3_practice\\models\\preferenciaalimenticia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|C:\\Users\\fabia\\Documents\\G3_Practice\\g3_practice\\models\\usuariospreferencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|solutionrelative:g3_practice\\models\\usuariospreferencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|C:\\Users\\fabia\\Documents\\G3_Practice\\g3_practice\\models\\categoriaxproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|solutionrelative:g3_practice\\models\\categoriaxproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|c:\\users\\fabia\\documents\\g3_practice\\g3_practice\\models\\pedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|solutionrelative:g3_practice\\models\\pedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,145 +62,145 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Web.config",
-              "DocumentMoniker": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Web.config",
-              "RelativeDocumentMoniker": "G3_Practice\\Web.config",
-              "ToolTip": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Web.config",
-              "RelativeToolTip": "G3_Practice\\Web.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-11-14T20:22:57.117Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "202411141519583_Ojala_Funcione.cs",
-              "DocumentMoniker": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Migrations\\202411141519583_Ojala_Funcione.cs",
-              "RelativeDocumentMoniker": "G3_Practice\\Migrations\\202411141519583_Ojala_Funcione.cs",
-              "ToolTip": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Migrations\\202411141519583_Ojala_Funcione.cs",
-              "RelativeToolTip": "G3_Practice\\Migrations\\202411141519583_Ojala_Funcione.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T15:20:05.718Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CarritoDetalle.cs",
-              "DocumentMoniker": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Models\\CarritoDetalle.cs",
-              "RelativeDocumentMoniker": "G3_Practice\\Models\\CarritoDetalle.cs",
-              "ToolTip": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Models\\CarritoDetalle.cs",
-              "RelativeToolTip": "G3_Practice\\Models\\CarritoDetalle.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T15:19:43.229Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Pedidos.cs",
-              "DocumentMoniker": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Models\\Pedidos.cs",
-              "RelativeDocumentMoniker": "G3_Practice\\Models\\Pedidos.cs",
-              "ToolTip": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Models\\Pedidos.cs",
-              "RelativeToolTip": "G3_Practice\\Models\\Pedidos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T15:19:28.724Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PedidoDetalles.cs",
-              "DocumentMoniker": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Models\\PedidoDetalles.cs",
-              "RelativeDocumentMoniker": "G3_Practice\\Models\\PedidoDetalles.cs",
-              "ToolTip": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Models\\PedidoDetalles.cs",
-              "RelativeToolTip": "G3_Practice\\Models\\PedidoDetalles.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T15:19:22.387Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IdentityModels.cs",
-              "DocumentMoniker": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Models\\IdentityModels.cs",
-              "RelativeDocumentMoniker": "G3_Practice\\Models\\IdentityModels.cs",
-              "ToolTip": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Models\\IdentityModels.cs",
-              "RelativeToolTip": "G3_Practice\\Models\\IdentityModels.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAUwDAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T14:14:04.748Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Ventas.cs",
-              "DocumentMoniker": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Models\\Ventas.cs",
-              "RelativeDocumentMoniker": "G3_Practice\\Models\\Ventas.cs",
-              "ToolTip": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Models\\Ventas.cs",
-              "RelativeToolTip": "G3_Practice\\Models\\Ventas.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAkwAoAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T14:29:38.56Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CategoriaxProducto.cs",
-              "DocumentMoniker": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Models\\CategoriaxProducto.cs",
-              "RelativeDocumentMoniker": "G3_Practice\\Models\\CategoriaxProducto.cs",
-              "ToolTip": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Models\\CategoriaxProducto.cs",
-              "RelativeToolTip": "G3_Practice\\Models\\CategoriaxProducto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T14:17:30.829Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "PreferenciaAlimenticia.cs",
-              "DocumentMoniker": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Models\\PreferenciaAlimenticia.cs",
-              "RelativeDocumentMoniker": "G3_Practice\\Models\\PreferenciaAlimenticia.cs",
-              "ToolTip": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Models\\PreferenciaAlimenticia.cs",
-              "RelativeToolTip": "G3_Practice\\Models\\PreferenciaAlimenticia.cs",
+              "Title": "202411161800122_CorreccionAPedidos.cs",
+              "DocumentMoniker": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Migrations\\202411161800122_CorreccionAPedidos.cs",
+              "RelativeDocumentMoniker": "G3_Practice\\Migrations\\202411161800122_CorreccionAPedidos.cs",
+              "ToolTip": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Migrations\\202411161800122_CorreccionAPedidos.cs",
+              "RelativeToolTip": "G3_Practice\\Migrations\\202411161800122_CorreccionAPedidos.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T14:14:05.95Z",
+              "WhenOpened": "2024-11-16T18:00:18.011Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Productos.cs",
-              "DocumentMoniker": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Models\\Productos.cs",
-              "RelativeDocumentMoniker": "G3_Practice\\Models\\Productos.cs",
-              "ToolTip": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Models\\Productos.cs",
-              "RelativeToolTip": "G3_Practice\\Models\\Productos.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAkwBMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T14:10:52.387Z",
+              "Title": "CompraExitosa.cshtml",
+              "DocumentMoniker": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Views\\Carrito\\CompraExitosa.cshtml",
+              "RelativeDocumentMoniker": "G3_Practice\\Views\\Carrito\\CompraExitosa.cshtml",
+              "ToolTip": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Views\\Carrito\\CompraExitosa.cshtml",
+              "RelativeToolTip": "G3_Practice\\Views\\Carrito\\CompraExitosa.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-16T17:57:24.244Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "UsuariosPreferencia.cs",
-              "DocumentMoniker": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Models\\UsuariosPreferencia.cs",
-              "RelativeDocumentMoniker": "G3_Practice\\Models\\UsuariosPreferencia.cs",
-              "ToolTip": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Models\\UsuariosPreferencia.cs",
-              "RelativeToolTip": "G3_Practice\\Models\\UsuariosPreferencia.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "G3_Practice\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "G3_Practice\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAHwAAAAAAAAAAADwvxIAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T04:01:10.544Z",
+              "WhenOpened": "2024-11-16T17:46:29.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PedidoDetalles.cs",
+              "DocumentMoniker": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Models\\PedidoDetalles.cs",
+              "RelativeDocumentMoniker": "G3_Practice\\Models\\PedidoDetalles.cs",
+              "ToolTip": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Models\\PedidoDetalles.cs",
+              "RelativeToolTip": "G3_Practice\\Models\\PedidoDetalles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T17:36:16.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Ventas.cs",
+              "DocumentMoniker": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Models\\Ventas.cs",
+              "RelativeDocumentMoniker": "G3_Practice\\Models\\Ventas.cs",
+              "ToolTip": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Models\\Ventas.cs",
+              "RelativeToolTip": "G3_Practice\\Models\\Ventas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T03:08:41.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CarritoDetalle.cs",
+              "DocumentMoniker": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Models\\CarritoDetalle.cs",
+              "RelativeDocumentMoniker": "G3_Practice\\Models\\CarritoDetalle.cs",
+              "ToolTip": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Models\\CarritoDetalle.cs",
+              "RelativeToolTip": "G3_Practice\\Models\\CarritoDetalle.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T03:05:08.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FinalizarCompra.cshtml",
+              "DocumentMoniker": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Views\\Carrito\\FinalizarCompra.cshtml",
+              "RelativeDocumentMoniker": "G3_Practice\\Views\\Carrito\\FinalizarCompra.cshtml",
+              "ToolTip": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Views\\Carrito\\FinalizarCompra.cshtml",
+              "RelativeToolTip": "G3_Practice\\Views\\Carrito\\FinalizarCompra.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-16T02:52:24.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Pedidos.cs",
+              "DocumentMoniker": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Models\\Pedidos.cs",
+              "RelativeDocumentMoniker": "G3_Practice\\Models\\Pedidos.cs",
+              "ToolTip": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Models\\Pedidos.cs",
+              "RelativeToolTip": "G3_Practice\\Models\\Pedidos.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T01:41:24.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CarritoController.cs",
+              "DocumentMoniker": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Controllers\\CarritoController.cs",
+              "RelativeDocumentMoniker": "G3_Practice\\Controllers\\CarritoController.cs",
+              "ToolTip": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Controllers\\CarritoController.cs*",
+              "RelativeToolTip": "G3_Practice\\Controllers\\CarritoController.cs*",
+              "ViewState": "AgIAAH0AAAAAAAAAAAA/wIsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T23:12:06.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductosClientesIndex.cshtml",
+              "DocumentMoniker": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Views\\Producto\\ProductosClientesIndex.cshtml",
+              "RelativeDocumentMoniker": "G3_Practice\\Views\\Producto\\ProductosClientesIndex.cshtml",
+              "ToolTip": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Views\\Producto\\ProductosClientesIndex.cshtml",
+              "RelativeToolTip": "G3_Practice\\Views\\Producto\\ProductosClientesIndex.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-15T22:45:58.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductoController.cs",
+              "DocumentMoniker": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Controllers\\ProductoController.cs",
+              "RelativeDocumentMoniker": "G3_Practice\\Controllers\\ProductoController.cs",
+              "ToolTip": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Controllers\\ProductoController.cs",
+              "RelativeToolTip": "G3_Practice\\Controllers\\ProductoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T22:43:41.236Z",
               "EditorCaption": ""
             }
           ]
