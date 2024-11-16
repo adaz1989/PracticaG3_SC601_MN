@@ -1,0 +1,24 @@
+﻿@model G3_Practice.Models.PreferenciaAlimenticia
+
+@{
+    ViewBag.Title = "Detalles de Preferencia Alimenticia";
+}
+
+<div>
+    <h4>Preferencia Alimenticia</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "Editar", new { id = Model.Id }) |
+    @Html.ActionLink("Atras", "Index")
+</p>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="..\packages\EntityFramework.6.5.1\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.5.1\build\EntityFramework.props')" />
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
   <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -166,7 +166,9 @@
     <Compile Include="Controllers\CarritoController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\PreferenciasAlimenticiasController.cs" />
     <Compile Include="Controllers\ProductosController.cs" />
+    <Compile Include="Controllers\VentasController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -174,33 +176,9 @@
     <Compile Include="Migrations\202411140329551_Creacion_User.Designer.cs">
       <DependentUpon>202411140329551_Creacion_User.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202411140345303_Fuck_ALL.cs" />
-    <Compile Include="Migrations\202411140345303_Fuck_ALL.Designer.cs">
-      <DependentUpon>202411140345303_Fuck_ALL.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202411152306161_GodBlessAmerica.cs" />
-    <Compile Include="Migrations\202411152306161_GodBlessAmerica.Designer.cs">
-      <DependentUpon>202411152306161_GodBlessAmerica.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202411152012504_AgregarDireccionEntregaMetodoPagoAPedido.cs" />
-    <Compile Include="Migrations\202411152012504_AgregarDireccionEntregaMetodoPagoAPedido.Designer.cs">
-      <DependentUpon>202411152012504_AgregarDireccionEntregaMetodoPagoAPedido.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202411160132347_NuevosDatosAlCarrito.cs" />
-    <Compile Include="Migrations\202411160132347_NuevosDatosAlCarrito.Designer.cs">
-      <DependentUpon>202411160132347_NuevosDatosAlCarrito.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202411160147128_ActualizarLosModelos.cs" />
-    <Compile Include="Migrations\202411160147128_ActualizarLosModelos.Designer.cs">
-      <DependentUpon>202411160147128_ActualizarLosModelos.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202411160229533_ActualizarELCarrito.cs" />
-    <Compile Include="Migrations\202411160229533_ActualizarELCarrito.Designer.cs">
-      <DependentUpon>202411160229533_ActualizarELCarrito.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202411161800122_CorreccionAPedidos.cs" />
-    <Compile Include="Migrations\202411161800122_CorreccionAPedidos.Designer.cs">
-      <DependentUpon>202411161800122_CorreccionAPedidos.cs</DependentUpon>
+    <Compile Include="Migrations\202411161938137_CrecionTablas.cs" />
+    <Compile Include="Migrations\202411161938137_CrecionTablas.Designer.cs">
+      <DependentUpon>202411161938137_CrecionTablas.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -288,7 +266,6 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
-    <Content Include="Views\Producto\ProductosClientesIndex.cshtml" />
     <Content Include="Views\Carrito\Index.cshtml" />
     <Content Include="Views\Carrito\CantidadMayorAStockIndex.cshtml" />
     <Content Include="Views\Carrito\CantidadMayorAStock2Index.cshtml" />
@@ -297,7 +274,13 @@
     <Content Include="Views\Productos\Index.cshtml" />
     <Content Include="Views\Productos\Create.cshtml" />
     <Content Include="Views\Productos\Edit.cshtml" />
+    <Content Include="Views\PreferenciasAlimenticias\Crear.cshtml" />
+    <Content Include="Views\PreferenciasAlimenticias\Detalles.cshtml" />
+    <Content Include="Views\PreferenciasAlimenticias\Editar.cshtml" />
+    <Content Include="Views\PreferenciasAlimenticias\Eliminar.cshtml" />
+    <Content Include="Views\PreferenciasAlimenticias\Index.cshtml" />
     <Content Include="Views\Productos\ProductosClientesIndex.cshtml" />
+    <Content Include="Views\Ventas\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -333,26 +316,8 @@
     <EmbeddedResource Include="Migrations\202411140329551_Creacion_User.resx">
       <DependentUpon>202411140329551_Creacion_User.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202411140345303_Fuck_ALL.resx">
-      <DependentUpon>202411140345303_Fuck_ALL.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202411152306161_GodBlessAmerica.resx">
-      <DependentUpon>202411152306161_GodBlessAmerica.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202411152012504_AgregarDireccionEntregaMetodoPagoAPedido.resx">
-      <DependentUpon>202411152012504_AgregarDireccionEntregaMetodoPagoAPedido.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202411160132347_NuevosDatosAlCarrito.resx">
-      <DependentUpon>202411160132347_NuevosDatosAlCarrito.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202411160147128_ActualizarLosModelos.resx">
-      <DependentUpon>202411160147128_ActualizarLosModelos.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202411160229533_ActualizarELCarrito.resx">
-      <DependentUpon>202411160229533_ActualizarELCarrito.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202411161800122_CorreccionAPedidos.resx">
-      <DependentUpon>202411161800122_CorreccionAPedidos.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202411161938137_CrecionTablas.resx">
+      <DependentUpon>202411161938137_CrecionTablas.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
@@ -387,12 +352,12 @@
     <PropertyGroup>
       <ErrorText>Este proyecto hace referencia a los paquetes NuGet que faltan en este equipo. Use la restauración de paquetes NuGet para descargarlos. Para obtener más información, consulte http://go.microsoft.com/fwlink/?LinkID=322105. El archivo que falta es {0}.</ErrorText>
     </PropertyGroup>
-    <Error Condition="!Exists('..\packages\EntityFramework.6.5.1\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.5.1\build\EntityFramework.props'))" />
-    <Error Condition="!Exists('..\packages\EntityFramework.6.5.1\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.5.1\build\EntityFramework.targets'))" />
     <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.4.1.0\build\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.4.1.0\build\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
   </Target>
-  <Import Project="..\packages\EntityFramework.6.5.1\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.5.1\build\EntityFramework.targets')" />
   <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.4.1.0\build\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.4.1.0\build\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets')" />
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

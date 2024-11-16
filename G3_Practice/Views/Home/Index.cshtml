@@ -1,33 +1,52 @@
-﻿@{
+﻿@model IEnumerable<G3_Practice.Models.Productos>
+@{
     ViewBag.Title = "Home Page";
 }
 
-<main>
-    <section class="row" aria-labelledby="aspnetTitle">
-        <h1 id="title">ASP.NET</h1>
-        <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-        <p><a href="https://asp.net" class="btn btn-primary btn-md">Learn more &raquo;</a></p>
-    </section>
-
-    <div class="row">
-        <section class="col-md-4" aria-labelledby="gettingStartedTitle">
-            <h2 id="gettingStartedTitle">Getting started</h2>
-            <p>
-                ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-                enables a clean separation of concerns and gives you full control over markup
-                for enjoyable, agile development.
-            </p>
-            <p><a class="btn btn-outline-dark" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
-        </section>
-        <section class="col-md-4" aria-labelledby="librariesTitle">
-            <h2 id="librariesTitle">Get more libraries</h2>
-            <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-            <p><a class="btn btn-outline-dark" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
-        </section>
-        <section class="col-md-4" aria-labelledby="hostingTitle">
-            <h2 id="hostingTitle">Web Hosting</h2>
-            <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-            <p><a class="btn btn-outline-dark" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
-        </section>
+<main class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card text-center position-relative" style="background-color: #f8f9fa; border: 1px solid #dee2e6;">
+                <div class="card-body">
+                    <img src="https://cdn-icons-png.flaticon.com/512/4012/4012571.png" alt="carritos" style="width: 100px; height: 100px; position: absolute; top: 10px; left: 10px;" />
+                    <h3 class="text-primary mt-5" style="margin-top: 120px;">Bienvenido a la practica del grupo 3</h3>
+                    <p class="text-dark mt-5">Para ver los productos y hacer una compra debes de iniciar sesion.</p>
+                    <h4 class="text-primary mt-5">¡Comienza a comparar los productos en nuestra tienda!</h4>
+                    <img src="https://cdn-icons-png.flaticon.com/512/1312/1312205.png" alt="productos" style="width: 100px; height: 100px; position: absolute; bottom: 10px; right: 10px;" />
+                </div>
+            </div>
+        </div>
     </div>
 </main>
+<div class="container mt-4">
+    <h2 class="text-center mb-4">Nuestros Productos</h2>
+    <div class="row">
+        @if (Model != null && Model.Any())
+        {
+            foreach (var producto in Model)
+            {
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="@Html.DisplayFor(modelItem => producto.imagen)" class="card-img-top img-fluid" style="height: 300px; object-fit: cover;" alt="@producto.ProductoName">
+                        <div class="card-body">
+                            <h5 class="card-title">Nombre: @Html.DisplayFor(modelItem => producto.ProductoName)</h5>
+                            <h5 class="card-title">Stock: @Html.DisplayFor(modelItem => producto.stock)</h5>
+                            <p class="card-text"><strong>Precio:</strong> @Html.DisplayFor(modelItem => producto.Price)</p>
+                            <a href="@Url.Action("AgregarAlCarrito", "Carrito", new { id = producto.ProductoId, producto.ProductoName, producto.Price, producto.stock, producto.imagen })" class="btn btn-primary">Agregar al Carrito</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+        else
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">No hay productos</h5>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

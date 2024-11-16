@@ -9,6 +9,7 @@ using System.Web.Mvc;
 
 namespace G3_Practice.Controllers
 {
+    [Authorize]
     public class CarritoController : Controller
     {
 
