@@ -152,5 +152,11 @@ namespace G3_Practice.Controllers
             }
             base.Dispose(disposing);
         }
+
+
+        public ActionResult ProductosClientesIdenx()
+        {
+            return View(_context.Productos.ToList());
+        }
     }
 }

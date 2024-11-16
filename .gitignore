@@ -2,7 +2,7 @@
 bin/
 obj/
 
-# Archivos generados por Visual Studio lo que puede causar conflictos
+
 .vs/
 *.vsix
 *.vscode/
