@@ -1,0 +1,77 @@
+﻿@model G3_Practice.Models.Productos
+
+@{
+    ViewBag.Title = "Editar Producto";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-lg border-0">
+        <div class="card-header bg-warning text-white">
+            <h2 class="mb-0">@ViewBag.Title</h2>
+        </div>
+        <div class="card-body p-4">
+            @using (Html.BeginForm("Edit", "Productos", FormMethod.Post, new { @class = "needs-validation", novalidate = "novalidate" }))
+            {
+                @Html.AntiForgeryToken()
+                @Html.HiddenFor(model => model.ProductoId)
+
+                <div class="form-group mb-3">
+                    @Html.LabelFor(model => model.ProductoName, new { @class = "form-label fw-bold" })
+                    @Html.EditorFor(model => model.ProductoName, new { htmlAttributes = new { @class = "form-control", placeholder = "Nombre del producto" } })
+                    @Html.ValidationMessageFor(model => model.ProductoName, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="form-group mb-3">
+                    @Html.LabelFor(model => model.Price, new { @class = "form-label fw-bold" })
+                    @Html.EditorFor(model => model.Price, new { htmlAttributes = new { @class = "form-control", placeholder = "Precio" } })
+                    @Html.ValidationMessageFor(model => model.Price, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="form-group mb-3">
+                    @Html.LabelFor(model => model.stock, new { @class = "form-label fw-bold" })
+                    @Html.EditorFor(model => model.stock, new { htmlAttributes = new { @class = "form-control", placeholder = "Cantidad en stock" } })
+                    @Html.ValidationMessageFor(model => model.stock, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="form-group mb-3">
+                    @Html.Label("Preferencias Alimenticias", new { @class = "form-label fw-bold" })
+                    <div>
+                        @if (ViewBag.Preferencias != null && ((List<G3_Practice.Models.PreferenciaAlimenticia>)ViewBag.Preferencias).Any())
+                        {
+                            foreach (var preferencia in (List<G3_Practice.Models.PreferenciaAlimenticia>)ViewBag.Preferencias)
+                            {
+                                <div class="form-check">
+                                    <input type="checkbox"
+                                           name="PreferenciasSeleccionadas[]"
+                                           value="@preferencia.Id"
+                                           class="form-check-input"
+                                           id="preferencia_@preferencia.Id"
+                                           @if (ViewBag.PreferenciasSeleccionadas != null && ViewBag.PreferenciasSeleccionadas.Contains(preferencia.Id)) { @: checked
+                                           } />
+                                    <label for="preferencia_@preferencia.Id" class="form-check-label">@preferencia.Name</label>
+                                </div>
+                            }
+                        }
+                        else
+                        {
+                            <p>No hay preferencias disponibles.</p>
+                        }
+
+
+                    </div>
+                </div>
+
+                <div class="form-group mb-3">
+                    @Html.LabelFor(model => model.imagen, new { @class = "form-label fw-bold" })
+                    @Html.EditorFor(model => model.imagen, new { htmlAttributes = new { @class = "form-control", placeholder = "URL de la imagen (https://example.com/image.jpg)" } })
+                    @Html.ValidationMessageFor(model => model.imagen, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="d-flex justify-content-between">
+                    <button type="submit" class="btn btn-warning px-4">Guardar Cambios</button>
+                    @Html.ActionLink("Cancelar", "Index", null, new { @class = "btn btn-outline-secondary" })
+                </div>
+            }
+        </div>
+    </div>
+</div>

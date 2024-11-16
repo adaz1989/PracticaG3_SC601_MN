@@ -15,6 +15,6 @@ namespace G3_Practice.Models
         public int stock { get; set; }
         public string imagen { get; set; }
 
-        public ICollection<CategoriaxProducto> CategoriaxProductos { get; set; }
+        public ICollection<ProductoPreferencia> ProductoPreferencia { get; set; }
     }
 }

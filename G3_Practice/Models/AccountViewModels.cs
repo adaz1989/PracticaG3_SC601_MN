@@ -64,6 +64,11 @@ namespace G3_Practice.Models
 
     public class RegisterViewModel
     {
+        public RegisterViewModel()
+        {
+            PreferenciaAlimenticiaIds = new List<int>();
+            PreferenciasAlimenticias = new List<PreferenciaAlimenticia>();
+        }
         [Required]
         [EmailAddress]
         [Display(Name = "Correo electrónico")]

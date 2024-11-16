@@ -9,6 +9,7 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using G3_Practice.Models;
+using System.Collections.Generic;
 
 namespace G3_Practice.Controllers
 {
@@ -22,7 +23,7 @@ namespace G3_Practice.Controllers
         {
         }
 
-        public AccountController(ApplicationUserManager userManager, ApplicationSignInManager signInManager )
+        public AccountController(ApplicationUserManager userManager, ApplicationSignInManager signInManager)
         {
             UserManager = userManager;
             SignInManager = signInManager;
@@ -34,9 +35,9 @@ namespace G3_Practice.Controllers
             {
                 return _signInManager ?? HttpContext.GetOwinContext().Get<ApplicationSignInManager>();
             }
-            private set 
-            { 
-                _signInManager = value; 
+            private set
+            {
+                _signInManager = value;
             }
         }
 
@@ -120,7 +121,7 @@ namespace G3_Practice.Controllers
             // Si un usuario introduce códigos incorrectos durante un intervalo especificado de tiempo, la cuenta del usuario 
             // se bloqueará durante un período de tiempo especificado. 
             // Puede configurar el bloqueo de la cuenta en IdentityConfig
-            var result = await SignInManager.TwoFactorSignInAsync(model.Provider, model.Code, isPersistent:  model.RememberMe, rememberBrowser: model.RememberBrowser);
+            var result = await SignInManager.TwoFactorSignInAsync(model.Provider, model.Code, isPersistent: model.RememberMe, rememberBrowser: model.RememberBrowser);
             switch (result)
             {
                 case SignInStatus.Success:
@@ -141,8 +142,8 @@ namespace G3_Practice.Controllers
         {
             var viewModel = new RegisterViewModel
             {
-                // Obtiene todas las preferencias alimenticias de la base de datos
-                PreferenciasAlimenticias = db.PreferenciasAlimenticias.ToList()
+                PreferenciasAlimenticias = db.PreferenciasAlimenticias?.ToList() ?? new List<PreferenciaAlimenticia>(),
+                PreferenciaAlimenticiaIds = new List<int>() // Inicializar la lista seleccionada
             };
             return View(viewModel);
         }

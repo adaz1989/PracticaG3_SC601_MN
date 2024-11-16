@@ -42,9 +42,8 @@ namespace G3_Practice.Models
         public DbSet<Pedidos> Pedidos { get; set; }
         public DbSet<PedidoDetalles> PedidoDetalles { get; set; }
         public DbSet<Productos> Productos { get; set; }
-        public DbSet<Categorias> Categorias { get; set; }
         public DbSet<Ventas> Ventas { get; set; }
-        public DbSet<CategoriaxProducto> CategoriaxProducto { get; set; }
+        public DbSet<ProductoPreferencia> ProductoPreferencia { get; set; }
         public DbSet<CarritoDetalle> CarritoDetalle { get; set; }
 
 
@@ -52,32 +51,31 @@ namespace G3_Practice.Models
         {
             base.OnModelCreating(modelBuilder);
 
-            // Relación entre ApplicationUser y PreferenciaAlimenticia a través de UsuariosPreferencia
             modelBuilder.Entity<UsuariosPreferencia>()
-                .HasKey(up => new { up.ApplicationUserId, up.PreferenciaAlimenticiaId }); // Clave primaria compuesta
+                .HasKey(up => new { up.ApplicationUserId, up.PreferenciaAlimenticiaId });
 
             modelBuilder.Entity<UsuariosPreferencia>()
-                .HasRequired(up => up.ApplicationUser) // Relación con ApplicationUser
-                .WithMany(u => u.UsuariosPreferencias) // Un usuario puede tener varias preferencias
+                .HasRequired(up => up.ApplicationUser)
+                .WithMany(u => u.UsuariosPreferencias)
                 .HasForeignKey(up => up.ApplicationUserId);
 
             modelBuilder.Entity<UsuariosPreferencia>()
-                .HasRequired(up => up.PreferenciaAlimenticia) // Relación con PreferenciaAlimenticia
-                .WithMany() // Una preferencia alimenticia puede estar asociada a muchos usuarios
+                .HasRequired(up => up.PreferenciaAlimenticia)
+                .WithMany()
                 .HasForeignKey(up => up.PreferenciaAlimenticiaId);
 
-            modelBuilder.Entity<CategoriaxProducto>()
-                .HasKey(cp => new { cp.ProductoId, cp.CategoriaId });
+            modelBuilder.Entity<ProductoPreferencia>()
+                .HasKey(pp => new { pp.ProductoId, pp.PreferenciaAlimenticiaId });
 
-            modelBuilder.Entity<CategoriaxProducto>()
-                .HasRequired(cp => cp.Producto)
-                .WithMany(p => p.CategoriaxProductos)
-                .HasForeignKey(cp => cp.ProductoId);
+            modelBuilder.Entity<ProductoPreferencia>()
+                .HasRequired(pp => pp.Productos)
+                .WithMany(p => p.ProductoPreferencia)
+                .HasForeignKey(pp => pp.ProductoId);
 
-            modelBuilder.Entity<CategoriaxProducto>()
-                .HasRequired(cp => cp.Categoria)
-                .WithMany(c => c.CategoriaxProductos)
-                .HasForeignKey(cp => cp.CategoriaId);
+            modelBuilder.Entity<ProductoPreferencia>()
+                .HasRequired(pp => pp.PreferenciaAlimenticia)
+                .WithMany()
+                .HasForeignKey(pp => pp.PreferenciaAlimenticiaId);
 
             modelBuilder.Entity<Pedidos>()
                 .HasRequired(p => p.ApplicationUser)
@@ -100,15 +98,16 @@ namespace G3_Practice.Models
                 .HasForeignKey(pd => pd.ProductoId);
 
             modelBuilder.Entity<CarritoDetalle>()
-            .HasRequired(cd => cd.ApplicationUser)
-            .WithMany(u => u.CarritoDetalle)
-            .HasForeignKey(cd => cd.UsuarioId);
+                .HasRequired(cd => cd.ApplicationUser)
+                .WithMany(u => u.CarritoDetalle)
+                .HasForeignKey(cd => cd.UsuarioId);
 
             modelBuilder.Entity<CarritoDetalle>()
                 .HasRequired(cd => cd.Producto)
                 .WithMany()
                 .HasForeignKey(cd => cd.ProuctoId);
         }
+
 
     }
 }

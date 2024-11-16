@@ -4,60 +4,73 @@
     ViewBag.Title = "Registrarse";
 }
 
-<main aria-labelledby="title">
-    <h2 id="title">@ViewBag.Title</h2>
+<div>
+    <main aria-labelledby="title">
+        <h2 id="title">@ViewBag.Title</h2>
 
-    @using (Html.BeginForm("Register", "Account", FormMethod.Post, new { role = "form" }))
-    {
-        @Html.AntiForgeryToken()
-        <h4>Cree una cuenta nueva.</h4>
-        <hr />
-        @Html.ValidationSummary("", new { @class = "text-danger" })
+        @using (Html.BeginForm("Register", "Account", FormMethod.Post, new { role = "form" }))
+        {
+            @Html.AntiForgeryToken()
+            <h4>Cree una cuenta nueva.</h4>
+            <hr />
+            @Html.ValidationSummary("", new { @class = "text-danger" })
 
-        <div class="row">
-            @Html.LabelFor(m => m.Email, new { @class = "col-md-2 col-form-label" })
-            <div class="col-md-10">
-                @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+            <div class="row">
+                @Html.LabelFor(m => m.Email, new { @class = "col-md-2 col-form-label" })
+                <div class="col-md-10">
+                    @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+                </div>
             </div>
-        </div>
 
-        <div class="row">
-            @Html.LabelFor(m => m.Localizacion, new { @class = "col-md-2 col-form-label" })
-            <div class="col-md-10">
-                @Html.TextBoxFor(m => m.Localizacion, new { @class = "form-control" })
+            <div class="row">
+                @Html.LabelFor(m => m.Localizacion, new { @class = "col-md-2 col-form-label" })
+                <div class="col-md-10">
+                    @Html.TextBoxFor(m => m.Localizacion, new { @class = "form-control" })
+                </div>
             </div>
-        </div>
 
-        <div class="row">
-            @Html.LabelFor(m => m.Password, new { @class = "col-md-2 col-form-label" })
-            <div class="col-md-10">
-                @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
+            <div class="row">
+                @Html.LabelFor(m => m.Password, new { @class = "col-md-2 col-form-label" })
+                <div class="col-md-10">
+                    @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
+                </div>
             </div>
-        </div>
 
-        <div class="row">
-            @Html.LabelFor(m => m.ConfirmPassword, new { @class = "col-md-2 col-form-label" })
-            <div class="col-md-10">
-                @Html.PasswordFor(m => m.ConfirmPassword, new { @class = "form-control" })
+            <div class="row">
+                @Html.LabelFor(m => m.ConfirmPassword, new { @class = "col-md-2 col-form-label" })
+                <div class="col-md-10">
+                    @Html.PasswordFor(m => m.ConfirmPassword, new { @class = "form-control" })
+                </div>
             </div>
-        </div>
 
-        <div class="row">
-            @Html.LabelFor(m => m.PreferenciaAlimenticiaIds, new { @class = "col-md-2 col-form-label" })
-            <div class="col-md-10">
-                @Html.ListBoxFor(m => m.PreferenciaAlimenticiaIds,
-                    new SelectList(Model.PreferenciasAlimenticias, "Id", "Name"),
-                    new { @class = "form-control", multiple = "multiple" })
+            <div class="row">
+                @if (Model.PreferenciasAlimenticias != null && Model.PreferenciasAlimenticias.Any())
+                {
+                    foreach (var preferencia in Model.PreferenciasAlimenticias)
+                    {
+                        <div class="form-check">
+                            <input type="checkbox"
+                                   name="PreferenciaAlimenticiaIds"
+                                   value="@preferencia.Id"
+                                   class="form-check-input"
+                                   @(Model.PreferenciaAlimenticiaIds != null && Model.PreferenciaAlimenticiaIds.Contains(preferencia.Id) ? "checked" : "") />
+                            <label class="form-check-label">@preferencia.Name</label>
+                        </div>
+                    }
+                }
             </div>
-        </div>
 
-        <div class="row">
-            <div class="offset-md-2 col-md-10">
-                <input type="submit" value="Registrarse" class="btn btn-outline-dark" />
+
+
+
+            <div class="row">
+                <div class="offset-md-2 col-md-10">
+                    <input type="submit" value="Registrarse" class="btn btn-outline-dark" />
+                </div>
             </div>
-        </div>
-    }
-</main>
+        }
+    </main>
+</div>
 
 @section Scripts {
     @Scripts.Render("~/bundles/jqueryval")

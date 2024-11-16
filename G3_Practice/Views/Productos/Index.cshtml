@@ -1,0 +1,76 @@
+﻿@model IEnumerable<G3_Practice.Models.Productos>
+@{
+    ViewBag.Title = "Lista de Productos";
+}
+
+<div class="container mt-4">
+    <h2 class="mb-4">Lista de Productos</h2>
+
+    <!-- Botón para agregar un nuevo producto -->
+    <div class="mb-3">
+        <a href="@Url.Action("Create")" class="btn btn-primary">
+            <i class="fas fa-plus"></i> Agregar Producto
+        </a>
+    </div>
+
+    <!-- Tabla de productos -->
+    <table class="table table-striped">
+        <thead class="thead-dark">
+            <tr>
+                <th>#</th>
+                <th>Nombre del Producto</th>
+                <th>Precio</th>
+                <th>Stock</th>
+                <th>Imagen</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (!Model.Any())
+            {
+                <tr>
+                    <td colspan="6" class="text-center">No hay productos disponibles</td>
+                </tr>
+            }
+            else
+            {
+                foreach (var producto in Model)
+                {
+                    <tr>
+                        <td>@producto.ProductoId</td>
+                        <td>@producto.ProductoName</td>
+                        <td>@producto.Price</td>
+                        <td>@producto.stock</td>
+                        <td>
+                            @if (!string.IsNullOrEmpty(producto.imagen))
+                            {
+                                <img src="@producto.imagen" alt="Imagen de @producto.ProductoName" class="img-thumbnail" style="width: 200px; height: 120px;" />
+                            }
+                            else
+                            {
+                                <span>No disponible</span>
+                            }
+                        </td>
+                        <td>
+                            <!-- Botones de acción -->
+                            <a href="@Url.Action("Edit", new { id = producto.ProductoId })" class="btn btn-sm btn-warning">
+                                <i class="fas fa-edit"></i> Editar
+                            </a>
+
+                            <!-- Botón para eliminar -->
+                            @using (Html.BeginForm("RemoveProducto", "Productos", FormMethod.Post))
+                            {
+                                @Html.AntiForgeryToken()
+                                @Html.Hidden("productoId", producto.ProductoId)
+                                <button type="submit" class="btn btn-sm btn-danger">
+                                    <i class="fas fa-trash"></i> Eliminar
+                                </button>
+                            }
+                        </td>
+
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+</div>
