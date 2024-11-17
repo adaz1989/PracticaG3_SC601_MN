@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\C#\\PracticaG3_SC601_MN\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|C:\\C#\\PracticaG3_SC601_MN\\g3_practice\\controllers\\preferenciasalimenticiascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|c:\\c#\\practicag3_sc601_mn\\g3_practice\\controllers\\preferenciasalimenticiascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|solutionrelative:g3_practice\\controllers\\preferenciasalimenticiascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,11 +11,11 @@
       "RelativeMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|solutionrelative:g3_practice\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|c:\\c#\\practicag3_sc601_mn\\g3_practice\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|C:\\C#\\PracticaG3_SC601_MN\\g3_practice\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|solutionrelative:g3_practice\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|c:\\c#\\practicag3_sc601_mn\\g3_practice\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|C:\\C#\\PracticaG3_SC601_MN\\g3_practice\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|solutionrelative:g3_practice\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -130,8 +130,7 @@
               "RelativeToolTip": "G3_Practice\\Migrations\\Configuration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T04:19:53.404Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T04:19:53.404Z"
             },
             {
               "$type": "Document",
@@ -155,8 +154,7 @@
               "RelativeToolTip": "G3_Practice\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T03:09:44.107Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T03:09:44.107Z"
             },
             {
               "$type": "Document",
@@ -178,7 +176,7 @@
               "RelativeDocumentMoniker": "G3_Practice\\Controllers\\PreferenciasAlimenticiasController.cs",
               "ToolTip": "C:\\C#\\PracticaG3_SC601_MN\\G3_Practice\\Controllers\\PreferenciasAlimenticiasController.cs",
               "RelativeToolTip": "G3_Practice\\Controllers\\PreferenciasAlimenticiasController.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAowAoAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAswGYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-17T03:09:12.393Z",
               "EditorCaption": ""
@@ -193,8 +191,7 @@
               "RelativeToolTip": "G3_Practice\\Controllers\\ProductosController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAJ4AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T02:47:05.719Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T02:47:05.719Z"
             },
             {
               "$type": "Document",
