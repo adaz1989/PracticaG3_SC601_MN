@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Web;
 
@@ -20,5 +21,7 @@ namespace G3_Practice.Models
         public ICollection<Ventas> Venta { get; set; }
         public virtual ICollection<PedidoDetalles> PedidoDetalle { get; set; }
 
-    }
+        [ForeignKey("EstadoId")]
+        public virtual EstadoPedido EstadoPedido { get; set; }
+}
 }

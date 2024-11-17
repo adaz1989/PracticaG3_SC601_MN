@@ -1,66 +1,70 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\fabia\\Documents\\G3_Practice\\",
+  "WorkspaceRootPath": "C:\\C#\\PracticaG3_SC601_MN\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|c:\\users\\fabia\\documents\\g3_practice\\g3_practice\\views\\ventas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|solutionrelative:g3_practice\\views\\ventas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|C:\\C#\\PracticaG3_SC601_MN\\g3_practice\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|solutionrelative:g3_practice\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|c:\\users\\fabia\\documents\\g3_practice\\g3_practice\\views\\carrito\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|solutionrelative:g3_practice\\views\\carrito\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|C:\\C#\\PracticaG3_SC601_MN\\g3_practice\\views\\pedidos\\detalles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|solutionrelative:g3_practice\\views\\pedidos\\detalles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|c:\\users\\fabia\\documents\\g3_practice\\g3_practice\\views\\carrito\\finalizarcompra.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|solutionrelative:g3_practice\\views\\carrito\\finalizarcompra.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|C:\\C#\\PracticaG3_SC601_MN\\g3_practice\\views\\pedidos\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|solutionrelative:g3_practice\\views\\pedidos\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|c:\\users\\fabia\\documents\\g3_practice\\g3_practice\\views\\carrito\\compraexitosa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|solutionrelative:g3_practice\\views\\carrito\\compraexitosa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|C:\\C#\\PracticaG3_SC601_MN\\g3_practice\\views\\pedidos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|solutionrelative:g3_practice\\views\\pedidos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|c:\\users\\fabia\\documents\\g3_practice\\g3_practice\\views\\carrito\\cantidadmayorastock2index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|solutionrelative:g3_practice\\views\\carrito\\cantidadmayorastock2index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|c:\\c#\\practicag3_sc601_mn\\g3_practice\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|solutionrelative:g3_practice\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|c:\\users\\fabia\\documents\\g3_practice\\g3_practice\\views\\carrito\\cantidadmayorastockindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|solutionrelative:g3_practice\\views\\carrito\\cantidadmayorastockindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|c:\\users\\fabia\\documents\\g3_practice\\g3_practice\\migrations\\202411161938137_creciontablas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|solutionrelative:g3_practice\\migrations\\202411161938137_creciontablas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|c:\\users\\fabia\\documents\\g3_practice\\g3_practice\\models\\usuariospreferencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|solutionrelative:g3_practice\\models\\usuariospreferencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|c:\\users\\fabia\\documents\\g3_practice\\g3_practice\\models\\productopreferencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|solutionrelative:g3_practice\\models\\productopreferencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|c:\\users\\fabia\\documents\\g3_practice\\g3_practice\\controllers\\carritocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|solutionrelative:g3_practice\\controllers\\carritocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|c:\\users\\fabia\\documents\\g3_practice\\g3_practice\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|C:\\C#\\PracticaG3_SC601_MN\\g3_practice\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|solutionrelative:g3_practice\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|C:\\Users\\fabia\\Documents\\G3_Practice\\g3_practice\\models\\ventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|solutionrelative:g3_practice\\models\\ventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|C:\\C#\\PracticaG3_SC601_MN\\g3_practice\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|solutionrelative:g3_practice\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|c:\\users\\fabia\\documents\\g3_practice\\g3_practice\\views\\productos\\productosclientesindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|solutionrelative:g3_practice\\views\\productos\\productosclientesindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|c:\\users\\fabia\\documents\\g3_practice\\g3_practice\\controllers\\ventascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|C:\\C#\\PracticaG3_SC601_MN\\g3_practice\\controllers\\ventascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|solutionrelative:g3_practice\\controllers\\ventascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|c:\\users\\fabia\\documents\\g3_practice\\g3_practice\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|solutionrelative:g3_practice\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|C:\\C#\\PracticaG3_SC601_MN\\g3_practice\\controllers\\carritocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|solutionrelative:g3_practice\\controllers\\carritocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|C:\\C#\\PracticaG3_SC601_MN\\g3_practice\\controllers\\managecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|solutionrelative:g3_practice\\controllers\\managecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|C:\\C#\\PracticaG3_SC601_MN\\g3_practice\\controllers\\pedidoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|solutionrelative:g3_practice\\controllers\\pedidoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|C:\\C#\\PracticaG3_SC601_MN\\g3_practice\\controllers\\preferenciasalimenticiascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|solutionrelative:g3_practice\\controllers\\preferenciasalimenticiascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|C:\\C#\\PracticaG3_SC601_MN\\g3_practice\\models\\rolinitialize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|solutionrelative:g3_practice\\models\\rolinitialize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|C:\\C#\\PracticaG3_SC601_MN\\g3_practice\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|solutionrelative:g3_practice\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|C:\\C#\\PracticaG3_SC601_MN\\g3_practice\\models\\identitymodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|solutionrelative:g3_practice\\models\\identitymodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|C:\\C#\\PracticaG3_SC601_MN\\g3_practice\\models\\pedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDD05A66-7344-471A-BC84-AC24D59F72E3}|G3_Practice\\G3_Practice.csproj|solutionrelative:g3_practice\\models\\pedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -69,207 +73,289 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "DockedWidth": 1439,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Views\\Carrito\\Index.cshtml",
-              "RelativeDocumentMoniker": "G3_Practice\\Views\\Carrito\\Index.cshtml",
-              "ToolTip": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Views\\Carrito\\Index.cshtml",
-              "RelativeToolTip": "G3_Practice\\Views\\Carrito\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-16T20:58:11.543Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FinalizarCompra.cshtml",
-              "DocumentMoniker": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Views\\Carrito\\FinalizarCompra.cshtml",
-              "RelativeDocumentMoniker": "G3_Practice\\Views\\Carrito\\FinalizarCompra.cshtml",
-              "ToolTip": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Views\\Carrito\\FinalizarCompra.cshtml",
-              "RelativeToolTip": "G3_Practice\\Views\\Carrito\\FinalizarCompra.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-16T20:58:07.464Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d562c6a0-d2fe-4c19-a8b3-e5cbc09bf375}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{5c82a791-7c9f-441e-952b-8848655dd85e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{5e929736-0e81-4d52-a78e-546a1649faca}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a34b1c5d-6d37-4a0c-a8b0-99f8e8158b48}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "CantidadMayorAStock2Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Views\\Carrito\\CantidadMayorAStock2Index.cshtml",
-              "RelativeDocumentMoniker": "G3_Practice\\Views\\Carrito\\CantidadMayorAStock2Index.cshtml",
-              "ToolTip": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Views\\Carrito\\CantidadMayorAStock2Index.cshtml",
-              "RelativeToolTip": "G3_Practice\\Views\\Carrito\\CantidadMayorAStock2Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-16T20:57:47.82Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ProductoPreferencia.cs",
-              "DocumentMoniker": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Models\\ProductoPreferencia.cs",
-              "RelativeDocumentMoniker": "G3_Practice\\Models\\ProductoPreferencia.cs",
-              "ToolTip": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Models\\ProductoPreferencia.cs",
-              "RelativeToolTip": "G3_Practice\\Models\\ProductoPreferencia.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAdAAAAAAAAAA==",
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\C#\\PracticaG3_SC601_MN\\G3_Practice\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "G3_Practice\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\C#\\PracticaG3_SC601_MN\\G3_Practice\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "G3_Practice\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAowFwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T20:44:27.411Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "202411161938137_CrecionTablas.cs",
-              "DocumentMoniker": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Migrations\\202411161938137_CrecionTablas.cs",
-              "RelativeDocumentMoniker": "G3_Practice\\Migrations\\202411161938137_CrecionTablas.cs",
-              "ToolTip": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Migrations\\202411161938137_CrecionTablas.cs",
-              "RelativeToolTip": "G3_Practice\\Migrations\\202411161938137_CrecionTablas.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwCYAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T20:41:54.436Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UsuariosPreferencia.cs",
-              "DocumentMoniker": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Models\\UsuariosPreferencia.cs",
-              "RelativeDocumentMoniker": "G3_Practice\\Models\\UsuariosPreferencia.cs",
-              "ToolTip": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Models\\UsuariosPreferencia.cs",
-              "RelativeToolTip": "G3_Practice\\Models\\UsuariosPreferencia.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T20:41:47.267Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Ventas.cs",
-              "DocumentMoniker": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Models\\Ventas.cs",
-              "RelativeDocumentMoniker": "G3_Practice\\Models\\Ventas.cs",
-              "ToolTip": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Models\\Ventas.cs",
-              "RelativeToolTip": "G3_Practice\\Models\\Ventas.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T03:08:41.892Z",
+              "WhenOpened": "2024-11-17T03:09:50.59Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Views\\Ventas\\Index.cshtml",
-              "RelativeDocumentMoniker": "G3_Practice\\Views\\Ventas\\Index.cshtml",
-              "ToolTip": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Views\\Ventas\\Index.cshtml*",
-              "RelativeToolTip": "G3_Practice\\Views\\Ventas\\Index.cshtml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-16T20:31:23.878Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CantidadMayorAStockIndex.cshtml",
-              "DocumentMoniker": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Views\\Carrito\\CantidadMayorAStockIndex.cshtml",
-              "RelativeDocumentMoniker": "G3_Practice\\Views\\Carrito\\CantidadMayorAStockIndex.cshtml",
-              "ToolTip": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Views\\Carrito\\CantidadMayorAStockIndex.cshtml",
-              "RelativeToolTip": "G3_Practice\\Views\\Carrito\\CantidadMayorAStockIndex.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAACDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-16T20:28:10.092Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "VentasController.cs",
-              "DocumentMoniker": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Controllers\\VentasController.cs",
-              "RelativeDocumentMoniker": "G3_Practice\\Controllers\\VentasController.cs",
-              "ToolTip": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Controllers\\VentasController.cs",
-              "RelativeToolTip": "G3_Practice\\Controllers\\VentasController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T20:27:10.048Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CompraExitosa.cshtml",
-              "DocumentMoniker": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Views\\Carrito\\CompraExitosa.cshtml",
-              "RelativeDocumentMoniker": "G3_Practice\\Views\\Carrito\\CompraExitosa.cshtml",
-              "ToolTip": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Views\\Carrito\\CompraExitosa.cshtml",
-              "RelativeToolTip": "G3_Practice\\Views\\Carrito\\CompraExitosa.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-16T20:26:40.233Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ProductosClientesIndex.cshtml",
-              "DocumentMoniker": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Views\\Productos\\ProductosClientesIndex.cshtml",
-              "RelativeDocumentMoniker": "G3_Practice\\Views\\Productos\\ProductosClientesIndex.cshtml",
-              "ToolTip": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Views\\Productos\\ProductosClientesIndex.cshtml",
-              "RelativeToolTip": "G3_Practice\\Views\\Productos\\ProductosClientesIndex.cshtml",
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\C#\\PracticaG3_SC601_MN\\G3_Practice\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "G3_Practice\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\C#\\PracticaG3_SC601_MN\\G3_Practice\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "G3_Practice\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-16T20:17:22.701Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ProductosController.cs",
-              "DocumentMoniker": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Controllers\\ProductosController.cs",
-              "RelativeDocumentMoniker": "G3_Practice\\Controllers\\ProductosController.cs",
-              "ToolTip": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Controllers\\ProductosController.cs",
-              "RelativeToolTip": "G3_Practice\\Controllers\\ProductosController.cs",
-              "ViewState": "AgIAAI8AAAAAAAAAAAAqwJ0AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T19:58:31.831Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "G3_Practice\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "G3_Practice\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-16T19:58:09.381Z",
+              "WhenOpened": "2024-11-17T03:09:44.107Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "CarritoController.cs",
-              "DocumentMoniker": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Controllers\\CarritoController.cs",
-              "RelativeDocumentMoniker": "G3_Practice\\Controllers\\CarritoController.cs",
-              "ToolTip": "C:\\Users\\fabia\\Documents\\G3_Practice\\G3_Practice\\Controllers\\CarritoController.cs",
-              "RelativeToolTip": "G3_Practice\\Controllers\\CarritoController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAPAAAAAAAAAA==",
+              "Title": "ManageController.cs",
+              "DocumentMoniker": "C:\\C#\\PracticaG3_SC601_MN\\G3_Practice\\Controllers\\ManageController.cs",
+              "RelativeDocumentMoniker": "G3_Practice\\Controllers\\ManageController.cs",
+              "ToolTip": "C:\\C#\\PracticaG3_SC601_MN\\G3_Practice\\Controllers\\ManageController.cs",
+              "RelativeToolTip": "G3_Practice\\Controllers\\ManageController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T23:12:06.638Z",
+              "WhenOpened": "2024-11-17T03:09:40.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PreferenciasAlimenticiasController.cs",
+              "DocumentMoniker": "C:\\C#\\PracticaG3_SC601_MN\\G3_Practice\\Controllers\\PreferenciasAlimenticiasController.cs",
+              "RelativeDocumentMoniker": "G3_Practice\\Controllers\\PreferenciasAlimenticiasController.cs",
+              "ToolTip": "C:\\C#\\PracticaG3_SC601_MN\\G3_Practice\\Controllers\\PreferenciasAlimenticiasController.cs",
+              "RelativeToolTip": "G3_Practice\\Controllers\\PreferenciasAlimenticiasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T03:09:12.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductosController.cs",
+              "DocumentMoniker": "C:\\C#\\PracticaG3_SC601_MN\\G3_Practice\\Controllers\\ProductosController.cs",
+              "RelativeDocumentMoniker": "G3_Practice\\Controllers\\ProductosController.cs",
+              "ToolTip": "C:\\C#\\PracticaG3_SC601_MN\\G3_Practice\\Controllers\\ProductosController.cs",
+              "RelativeToolTip": "G3_Practice\\Controllers\\ProductosController.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAAAIcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T02:47:05.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\C#\\PracticaG3_SC601_MN\\G3_Practice\\Views\\Pedidos\\Index.cshtml",
+              "RelativeDocumentMoniker": "G3_Practice\\Views\\Pedidos\\Index.cshtml",
+              "ToolTip": "C:\\C#\\PracticaG3_SC601_MN\\G3_Practice\\Views\\Pedidos\\Index.cshtml",
+              "RelativeToolTip": "G3_Practice\\Views\\Pedidos\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T00:49:30.903Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "C:\\C#\\PracticaG3_SC601_MN\\G3_Practice\\Views\\Pedidos\\Editar.cshtml",
+              "RelativeDocumentMoniker": "G3_Practice\\Views\\Pedidos\\Editar.cshtml",
+              "ToolTip": "C:\\C#\\PracticaG3_SC601_MN\\G3_Practice\\Views\\Pedidos\\Editar.cshtml",
+              "RelativeToolTip": "G3_Practice\\Views\\Pedidos\\Editar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T01:41:48.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Detalles.cshtml",
+              "DocumentMoniker": "C:\\C#\\PracticaG3_SC601_MN\\G3_Practice\\Views\\Pedidos\\Detalles.cshtml",
+              "RelativeDocumentMoniker": "G3_Practice\\Views\\Pedidos\\Detalles.cshtml",
+              "ToolTip": "C:\\C#\\PracticaG3_SC601_MN\\G3_Practice\\Views\\Pedidos\\Detalles.cshtml",
+              "RelativeToolTip": "G3_Practice\\Views\\Pedidos\\Detalles.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T01:02:38.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "VentasController.cs",
+              "DocumentMoniker": "C:\\C#\\PracticaG3_SC601_MN\\G3_Practice\\Controllers\\VentasController.cs",
+              "RelativeDocumentMoniker": "G3_Practice\\Controllers\\VentasController.cs",
+              "ToolTip": "C:\\C#\\PracticaG3_SC601_MN\\G3_Practice\\Controllers\\VentasController.cs",
+              "RelativeToolTip": "G3_Practice\\Controllers\\VentasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T03:10:03.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\C#\\PracticaG3_SC601_MN\\G3_Practice\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "G3_Practice\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\C#\\PracticaG3_SC601_MN\\G3_Practice\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "G3_Practice\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T03:16:19.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IdentityModels.cs",
+              "DocumentMoniker": "C:\\C#\\PracticaG3_SC601_MN\\G3_Practice\\Models\\IdentityModels.cs",
+              "RelativeDocumentMoniker": "G3_Practice\\Models\\IdentityModels.cs",
+              "ToolTip": "C:\\C#\\PracticaG3_SC601_MN\\G3_Practice\\Models\\IdentityModels.cs",
+              "RelativeToolTip": "G3_Practice\\Models\\IdentityModels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T02:37:52.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CarritoController.cs",
+              "DocumentMoniker": "C:\\C#\\PracticaG3_SC601_MN\\G3_Practice\\Controllers\\CarritoController.cs",
+              "RelativeDocumentMoniker": "G3_Practice\\Controllers\\CarritoController.cs",
+              "ToolTip": "C:\\C#\\PracticaG3_SC601_MN\\G3_Practice\\Controllers\\CarritoController.cs",
+              "RelativeToolTip": "G3_Practice\\Controllers\\CarritoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T02:46:34.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RolInitialize.cs",
+              "DocumentMoniker": "C:\\C#\\PracticaG3_SC601_MN\\G3_Practice\\Models\\RolInitialize.cs",
+              "RelativeDocumentMoniker": "G3_Practice\\Models\\RolInitialize.cs",
+              "ToolTip": "C:\\C#\\PracticaG3_SC601_MN\\G3_Practice\\Models\\RolInitialize.cs",
+              "RelativeToolTip": "G3_Practice\\Models\\RolInitialize.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAuwBMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T02:39:06.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\C#\\PracticaG3_SC601_MN\\G3_Practice\\Global.asax.cs",
+              "RelativeDocumentMoniker": "G3_Practice\\Global.asax.cs",
+              "ToolTip": "C:\\C#\\PracticaG3_SC601_MN\\G3_Practice\\Global.asax.cs",
+              "RelativeToolTip": "G3_Practice\\Global.asax.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T02:40:52.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PedidosController.cs",
+              "DocumentMoniker": "C:\\C#\\PracticaG3_SC601_MN\\G3_Practice\\Controllers\\PedidosController.cs",
+              "RelativeDocumentMoniker": "G3_Practice\\Controllers\\PedidosController.cs",
+              "ToolTip": "C:\\C#\\PracticaG3_SC601_MN\\G3_Practice\\Controllers\\PedidosController.cs",
+              "RelativeToolTip": "G3_Practice\\Controllers\\PedidosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T00:52:56.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Pedidos.cs",
+              "DocumentMoniker": "C:\\C#\\PracticaG3_SC601_MN\\G3_Practice\\Models\\Pedidos.cs",
+              "RelativeDocumentMoniker": "G3_Practice\\Models\\Pedidos.cs",
+              "ToolTip": "C:\\C#\\PracticaG3_SC601_MN\\G3_Practice\\Models\\Pedidos.cs",
+              "RelativeToolTip": "G3_Practice\\Models\\Pedidos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T01:08:21.846Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 658,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cdbdee54-b399-484b-b763-db2c3393d646}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d98f7c4d-b652-422c-bcdf-3d0e2b2da2c1}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:18:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:19:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:21:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 150,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         }

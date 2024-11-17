@@ -7,6 +7,7 @@ using System.Web.Mvc;
 
 namespace G3_Practice.Controllers
 {
+    [Authorize(Roles = "Admin")]
     public class VentasController : Controller
     {
 

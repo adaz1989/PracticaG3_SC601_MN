@@ -1,5 +1,6 @@
 ﻿namespace G3_Practice.Migrations
 {
+    using G3_Practice.Models;
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
@@ -18,7 +19,7 @@
             //  This method will be called after migrating to the latest version.
 
             //  You can use the DbSet<T>.AddOrUpdate() helper extension method
-            //  to avoid creating duplicate seed data.
+            //  to avoid creating duplicate seed data.            
         }
     }
 }

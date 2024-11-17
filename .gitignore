@@ -6,3 +6,4 @@ obj/
 .vs/
 *.vsix
 *.vscode/
+G3_Practice/Web.config

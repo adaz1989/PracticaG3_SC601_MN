@@ -8,6 +8,7 @@ using System.Data.Entity;
 
 namespace G3_Practice.Controllers
 {
+    [Authorize(Roles = "Admin")]
     public class PreferenciasAlimenticiasController : Controller
     {
         private readonly ApplicationDbContext _context = new ApplicationDbContext();

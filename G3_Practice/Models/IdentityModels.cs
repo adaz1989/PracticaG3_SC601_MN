@@ -108,6 +108,6 @@ namespace G3_Practice.Models
                 .HasForeignKey(cd => cd.ProuctoId);
         }
 
-
+        public System.Data.Entity.DbSet<G3_Practice.Models.EstadoPedido> EstadoPedidoes { get; set; }
     }
 }

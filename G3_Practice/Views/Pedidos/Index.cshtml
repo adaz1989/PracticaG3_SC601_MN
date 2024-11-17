@@ -1,0 +1,55 @@
+﻿@model IEnumerable<G3_Practice.Models.Pedidos>
+
+<h2>Pedidos</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ApplicationUser.Location)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EstadoPedido.Descripcion)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FechaPedido)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DireccionEntrega)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MetodoPago)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.total)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.ApplicationUser.Location)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EstadoPedido.Descripcion)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FechaPedido)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DireccionEntrega)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MetodoPago)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.total)
+        </td>
+        <td>
+            @Html.ActionLink("Editar", "Editar", new { id=item.PedidoId }) |
+            @Html.ActionLink("Detalles", "Detalles", new { id=item.PedidoId })
+        </td>
+    </tr>
+}
+
+</table>

@@ -166,6 +166,7 @@
     <Compile Include="Controllers\CarritoController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\PedidosController.cs" />
     <Compile Include="Controllers\PreferenciasAlimenticiasController.cs" />
     <Compile Include="Controllers\ProductosController.cs" />
     <Compile Include="Controllers\VentasController.cs" />
@@ -180,9 +181,14 @@
     <Compile Include="Migrations\202411161938137_CrecionTablas.Designer.cs">
       <DependentUpon>202411161938137_CrecionTablas.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202411162357405_NuevaRelacionEstadoPedidos.cs" />
+    <Compile Include="Migrations\202411162357405_NuevaRelacionEstadoPedidos.Designer.cs">
+      <DependentUpon>202411162357405_NuevaRelacionEstadoPedidos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\CarritoDetalle.cs" />
+    <Compile Include="Models\EstadoPedido.cs" />
     <Compile Include="Models\ProductoPreferencia.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
@@ -190,6 +196,7 @@
     <Compile Include="Models\Pedidos.cs" />
     <Compile Include="Models\PreferenciaAlimenticia.cs" />
     <Compile Include="Models\Productos.cs" />
+    <Compile Include="Models\RolInitialize.cs" />
     <Compile Include="Models\UsuariosPreferencia.cs" />
     <Compile Include="Models\Ventas.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -281,6 +288,9 @@
     <Content Include="Views\PreferenciasAlimenticias\Index.cshtml" />
     <Content Include="Views\Productos\ProductosClientesIndex.cshtml" />
     <Content Include="Views\Ventas\Index.cshtml" />
+    <Content Include="Views\Pedidos\Index.cshtml" />
+    <Content Include="Views\Pedidos\Detalles.cshtml" />
+    <Content Include="Views\Pedidos\Editar.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -318,6 +328,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202411161938137_CrecionTablas.resx">
       <DependentUpon>202411161938137_CrecionTablas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202411162357405_NuevaRelacionEstadoPedidos.resx">
+      <DependentUpon>202411162357405_NuevaRelacionEstadoPedidos.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

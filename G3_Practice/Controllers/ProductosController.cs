@@ -6,15 +6,18 @@ using System.Web.Mvc;
 
 namespace G3_Practice.Controllers
 {
+    //
     public class ProductosController : Controller
     {
         private readonly ApplicationDbContext _context = new ApplicationDbContext();
 
+        [Authorize(Roles = "Admin")]
         public ActionResult Index()
         {
             return View(_context.Productos.ToList());
         }
 
+        [Authorize(Roles = "Admin")]
         public ActionResult Create()
         {
             var preferencias = _context.PreferenciasAlimenticias.ToList();
@@ -26,6 +29,7 @@ namespace G3_Practice.Controllers
             return View();
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create(Productos producto, int[] PreferenciasSeleccionadas)
@@ -56,6 +60,7 @@ namespace G3_Practice.Controllers
             return View(producto);
         }
 
+        [Authorize(Roles = "Admin")]
         public ActionResult Edit(int id)
         {
             var producto = _context.Productos.Find(id);
@@ -85,8 +90,7 @@ namespace G3_Practice.Controllers
             return View(producto);
         }
 
-
-
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Edit(Productos producto, int[] PreferenciasSeleccionadas)
@@ -123,6 +127,7 @@ namespace G3_Practice.Controllers
             return View(producto);
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         public ActionResult RemoveProducto(int productoId)
         {
@@ -144,6 +149,7 @@ namespace G3_Practice.Controllers
             return RedirectToAction("Index");
         }
 
+        [Authorize(Roles = "Admin")]
         protected override void Dispose(bool disposing)
         {
             if (disposing)
@@ -153,6 +159,7 @@ namespace G3_Practice.Controllers
             base.Dispose(disposing);
         }
 
+        [Authorize]
         public ActionResult ProductosClientesIndex()
         {
             var productos = _context.Productos.ToList();
